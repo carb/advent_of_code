@@ -14,8 +14,6 @@ func mustAtoi(s string) int {
 	return i
 }
 
-var uniqCharCount = 14
-
 func process_input(input string) {
 	commandGroups := strings.Split(input, "$ ")
 	pwd := []string{""}
